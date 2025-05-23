@@ -1,0 +1,19 @@
+@model IEnumerable<Shopping_Laptop.Models.BrandModel>
+
+<div class="brand-grid">
+    @foreach (var brand in Model)
+    {
+        <a href="/Brand/@brand.Id" class="brand-item">
+            @if (!string.IsNullOrEmpty(brand.Logo))
+            {
+                <img src="/images/brands/@brand.Logo" alt="@brand.Name Logo" class="brand-logo">
+            }
+            else
+            {
+                <i class="fas fa-building"></i>
+            }
+            <span>@brand.Name</span>
+            <small class="product-count">(@brand.Products?.Count() ?? 0 sản phẩm)</small>
+        </a>
+    }
+</div>

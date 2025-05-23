@@ -1,0 +1,1056 @@
+/* General Body & Typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #495057; /* Default text color */
+    background-color: #f8f9fa; /* Light gray background for the page */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure footer sticks to bottom */
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    flex-grow: 1; /* Allow main content to push footer down */
+}
+
+/* Navbar Customization */
+.navbar-custom {
+    background-color: #0A2540 !important; /* Primary color - Xanh Navy Đậm */
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-custom .navbar-brand {
+    color: #FFFFFF !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-custom .navbar-brand img {
+    height: 40px; /* Ensure logo height is consistent */
+    margin-right: 10px;
+}
+
+.navbar-custom .nav-link {
+    color: #E0E0E0 !important; /* Lighter text for contrast on dark bg */
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 0.25rem;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-item.show .nav-link { /* For active dropdown toggle */
+    color: #FFFFFF !important;
+    background-color: rgba(255, 90, 0, 0.1); /* Accent color with transparency */
+}
+.navbar-custom .nav-link.active {
+     border-bottom: 2px solid #FF5A00;
+}
+
+
+.navbar-custom .dropdown-menu {
+    background-color: #FFFFFF; /* White background for dropdown */
+    border: 1px solid #DEE2E6; /* Light border */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    border-radius: 0.375rem; /* Standard Bootstrap border-radius */
+    margin-top: 0.5rem; /* Space from navbar */
+}
+
+.navbar-custom .dropdown-item {
+    color: #212529; /* Dark text for dropdown items */
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #0A2540; /* Primary color text on hover */
+    background-color: #F8F9FA; /* Light gray background on hover */
+}
+
+.navbar-custom .dropdown-divider {
+    border-top: 1px solid #DEE2E6;
+}
+
+/* Full-width Dropdown Styles (kept from user request) */
+.navbar-custom .dropdown-menu.full-width-dropdown {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0.5rem !important; /* Ensure consistency with other dropdowns */
+    border-top: 1px solid #DEE2E6; 
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    background-color: #FFFFFF;
+    padding: 0; /* Remove padding if container inside handles it */
+}
+
+.navbar-custom .dropdown-menu.full-width-dropdown .container {
+     padding: 1rem; /* Padding inside the container of full-width dropdown */
+}
+
+.navbar-custom .dropdown-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.navbar-custom .dropdown-flex-container a {
+    flex-basis: calc(20% - 10px); /* 5 items per row, adjust for gap */
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 0.25rem;
+    text-align: center;
+    color: #0A2540;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background-color: #F8F9FA;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.navbar-custom .dropdown-flex-container a:hover {
+    background-color: #E9ECEF;
+    color: #FF5A00;
+    border-color: #FF5A00;
+    text-decoration: none;
+}
+
+
+/* Search Bar in Navbar */
+.navbar-custom .form-control {
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.2);
+    color: #FFFFFF;
+}
+.navbar-custom .form-control::placeholder {
+    color: #E0E0E0;
+}
+.navbar-custom .form-control:focus {
+    background-color: rgba(255,255,255,0.2);
+    border-color: #FF5A00;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 0.25rem rgba(255, 90, 0, 0.25);
+}
+
+.btn-search-custom {
+    background-color: #FF5A00;
+    border-color: #FF5A00;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.btn-search-custom:hover {
+    background-color: #E04E00; /* Darker accent */
+    border-color: #E04E00;
+    color: #FFFFFF;
+}
+
+/* Navbar Toggler */
+.navbar-custom .navbar-toggler {
+    border-color: rgba(255,255,255,0.3);
+}
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* Footer Customization */
+.footer-custom {
+    background-color: #212529; /* Xám Rất Đậm/Gần Đen */
+    color: #DEE2E6; /* Light gray text */
+    padding-top: 3rem;
+    padding-bottom: 1rem; /* Reduced bottom padding as hr and copyright has its own */
+}
+
+.footer-custom h5.footer-title {
+    color: #FF5A00 !important; /* Accent color for footer titles */
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-custom p {
+    color: #ADB5BD; /* Slightly darker than main footer text for paragraphs */
+    font-size: 0.9rem;
+}
+
+.footer-custom a {
+    color: #DEE2E6;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-custom a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.footer-custom .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-custom .list-inline-item a {
+    font-size: 1.5rem; /* Social icon size */
+    margin: 0 0.5rem;
+}
+
+.footer-custom .list-inline-item a:hover {
+    color: #FF5A00; /* Accent color on hover for social icons */
+    text-decoration: none;
+}
+
+.footer-custom hr {
+    border-top-color: #495057; /* Darker border for hr */
+}
+
+.footer-custom .copyright-text {
+    font-size: 0.85rem;
+    color: #ADB5BD;
+}
+.footer-custom .copyright-text a {
+    color: #FF5A00;
+    font-weight: 500;
+}
+.footer-custom .copyright-text a:hover {
+    color: #E04E00;
+}
+
+/*Ensure body takes full height for sticky footer if content is short*/
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.footer-custom {
+    flex-shrink: 0;
+} */
+/* Already added to body, main at the top */
+
+/* Style for user account dropdown items to align icon and text */
+.navbar-custom .dropdown-menu .dropdown-item i.fa {
+    width: 20px; /* Fixed width for icon */
+    text-align: center; /* Center icon */
+}
+
+/* Style for cart icon to be more prominent if needed */
+.navbar-custom .nav-link i.fa-shopping-cart {
+    font-size: 1.2rem;
+}
+
+/* =========================================
+   Base Styles & Variables
+   ========================================= */
+:root {
+    --primary-color: #0A2540; /* Xanh Navy Đậm */
+    --secondary-color: #FF5A00; /* Cam Sáng Năng Động */
+    --light-text-color: #FFFFFF;
+    --dark-text-color: #212529;
+    --body-text-color: #495057;
+    --border-color: #DEE2E6;
+    --light-bg-color: #F8F9FA;
+
+    --font-family-headings: 'Montserrat', sans-serif;
+    --font-family-body: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-family-body);
+    color: var(--body-text-color);
+    background-color: #fff; /* Hoặc var(--light-bg-color) nếu muốn nền xám nhẹ */
+    padding-top: 70px; /* Default for fixed-top navbar, adjust if navbar height changes */
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--font-family-headings);
+    color: var(--primary-color); /* Màu heading mặc định */
+}
+
+/* =========================================
+   Navbar Customization
+   ========================================= */
+.navbar-custom {
+    background-color: var(--primary-color) !important; /* Quan trọng để ghi đè style inline */
+    font-family: var(--font-family-headings);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-custom .navbar-brand {
+    color: var(--light-text-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.navbar-custom .navbar-brand img {
+    max-height: 40px; /* Giữ nguyên từ layout */
+    margin-right: 10px;
+}
+.navbar-custom .navbar-brand:hover {
+    color: #e9ecef; /* Sáng hơn chút khi hover */
+}
+
+.navbar-custom .nav-link {
+    color: rgba(255, 255, 255, 0.8); /* Trắng hơi mờ */
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+    color: var(--light-text-color);
+}
+
+.navbar-custom .nav-link.active {
+    color: var(--light-text-color);
+    font-weight: 700;
+    /* border-bottom: 2px solid var(--secondary-color); */ /* Tùy chọn: Thêm gạch chân cam cho active */
+}
+
+.navbar-custom .dropdown-toggle::after {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Search form in Navbar */
+.navbar-custom .form-control-search {
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: var(--light-text-color);
+    border-radius: 0.375rem; /* BS5 default */
+}
+.navbar-custom .form-control-search::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+.navbar-custom .form-control-search:focus {
+    background-color: rgba(255,255,255,0.2);
+    border-color: var(--secondary-color);
+    color: var(--light-text-color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 90, 0, 0.25);
+}
+
+.navbar-custom .btn-search-custom {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.navbar-custom .btn-search-custom:hover,
+.navbar-custom .btn-search-custom:focus {
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 90, 0, 0.25);
+}
+
+/* User icons in Navbar */
+.navbar-custom .navbar-nav .nav-link i {
+    font-size: 1.1rem; /* Kích thước icon */
+}
+.navbar-custom .navbar-nav .nav-link .d-lg-none { /* Text cho mobile */
+    font-size: 0.85rem;
+    text-transform: none;
+}
+
+
+/* Full-width Dropdown Styles (Moved from _Layout.cshtml) */
+.navbar-custom .dropdown-menu.full-width-dropdown {
+    /* Bootstrap 5 handles dropdown display. Hover can be enabled via JS or CSS if required. */
+    /* For BS5, ensure it's not overriding standard dropdown behavior if using click. */
+    position: absolute; /* Ensure it's correctly positioned by BS */
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0; /* BS default is usually fine */
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); /* BS shadow */
+    background-color: #fff; /* Nền trắng cho dropdown */
+    padding: 0; /* Bỏ padding của dropdown-menu để container bên trong kiểm soát */
+    border-radius: 0 0 0.375rem 0.375rem; /* Bo góc dưới */
+}
+
+.navbar-custom .dropdown-menu.full-width-dropdown .dropdown-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1.5rem; /* Tăng padding */
+    gap: 1rem; /* Khoảng cách giữa các item */
+}
+
+.navbar-custom .dropdown-menu.full-width-dropdown .dropdown-flex-container a {
+    flex-basis: calc(20% - 1rem); /* 5 items per row, accounting for gap */
+    /* Can adjust with Bootstrap col classes like col-lg-2 col-md-3 etc. inside .row */
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+    text-align: center;
+    color: var(--body-text-color);
+    font-family: var(--font-family-body);
+    font-size: 0.9rem;
+    text-transform: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.navbar-custom .dropdown-menu.full-width-dropdown .dropdown-flex-container a:hover {
+    background-color: var(--light-bg-color);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/* Regular dropdown menu (e.g., user account) on dark navbar */
+.navbar-custom .dropdown-menu:not(.full-width-dropdown) {
+    background-color: var(--light-bg-color); /* Nền sáng cho dropdown thường */
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+.navbar-custom .dropdown-menu:not(.full-width-dropdown) .dropdown-item {
+    color: var(--dark-text-color);
+    font-family: var(--font-family-body);
+    font-size: 0.9rem;
+}
+.navbar-custom .dropdown-menu:not(.full-width-dropdown) .dropdown-item:hover,
+.navbar-custom .dropdown-menu:not(.full-width-dropdown) .dropdown-item:focus {
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+}
+.navbar-custom .dropdown-menu:not(.full-width-dropdown) .dropdown-divider {
+    border-top-color: #ced4da; /* Màu gạch ngang */
+}
+
+
+/* =========================================
+   Footer Customization
+   ========================================= */
+.footer-custom {
+    background-color: var(--dark-text-color); /* #212529 */
+    color: rgba(255, 255, 255, 0.7); /* Chữ trắng hơi mờ */
+    font-family: var(--font-family-body);
+    padding-top: 3rem;
+    padding-bottom: 1rem; /* Giảm padding bottom để hr và copyright bar không quá xa */
+}
+
+.footer-custom h5.footer-title {
+    color: var(--secondary-color) !important; /* Quan trọng để ghi đè style inline */
+    font-family: var(--font-family-headings);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.footer-custom p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-custom a,
+.footer-custom a:not([href]):not([tabindex]) { /* BS5 selector cho link không href */
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.footer-custom a:hover {
+    color: var(--light-text-color);
+    text-decoration: none; /* BS5 thường bỏ gạch chân, nhưng để chắc */
+}
+
+.footer-custom .footer-logo {
+    max-height: 50px; /* Giữ nguyên từ layout */
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.footer-custom hr {
+    border-top-color: rgba(255, 255, 255, 0.15); /* Màu hr nhạt hơn */
+}
+
+.footer-custom .list-inline-item a {
+    font-size: 1.5rem; /* Kích thước icon social */
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: inline-block; /* Cho phép transform */
+}
+.footer-custom .list-inline-item a:hover {
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.footer-custom .copyright-text {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-custom .copyright-text a {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.footer-custom .copyright-text a:hover {
+    color: #ff8c42; /* Cam sáng hơn khi hover */
+}
+
+
+/* Ensure main.css overrides are respected if any properties are defined there too */
+/* This custom-layout.css should be linked AFTER main.css in _Layout.cshtml */
+
+/* =========================================
+   Homepage Specific Styles
+   ========================================= */
+
+/* Hero Slider */
+#hero-slider .carousel-item {
+    height: 70vh; /* Adjust height as needed */
+    min-height: 450px;
+    background-color: #777; /* Fallback color */
+}
+
+#hero-slider .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#hero-slider .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background for better readability */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    bottom: 10%; /* Position caption higher */
+}
+
+#hero-slider .carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--light-text-color);
+    margin-bottom: 0.75rem;
+}
+
+#hero-slider .carousel-caption p {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 1.5rem;
+}
+
+#hero-slider .carousel-caption .btn {
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/* Featured Categories */
+.category-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    overflow: hidden; /* Ensures img corners are rounded if card is rounded */
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+}
+
+.category-card .card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.category-card .card-body {
+    background-color: #fff;
+}
+
+.category-card .card-title {
+    color: var(--primary-color);
+}
+
+/* Product Card */
+.product-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.product-card-img-container {
+    overflow: hidden; /* To contain image zoom effect */
+    height: 200px; /* Fixed height for image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Background for images with transparency */
+}
+
+.product-card-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Changed from cover to contain to show full image */
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-card-img {
+    transform: scale(1.05);
+}
+
+.product-name {
+    font-size: 1rem; /* Slightly smaller for card */
+    font-weight: 600;
+    line-height: 1.3;
+    height: 2.6em; /* Approx 2 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0.25rem !important;
+}
+
+.product-price {
+    color: var(--secondary-color);
+}
+
+.product-actions .btn {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.product-actions .add-to-cart i {
+    margin-right: 4px;
+}
+
+.product-actions .add-to-wishlist {
+    /* Style for wishlist button if needed, e.g., color on hover */
+}
+
+/* Responsive adjustments for slider captions */
+@@media (max-width: 767.98px) {
+    #hero-slider .carousel-item {
+        height: 50vh;
+        min-height: 350px;
+    }
+    #hero-slider .carousel-caption h2 {
+        font-size: 1.8rem;
+    }
+    #hero-slider .carousel-caption p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    #hero-slider .carousel-caption .btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.5rem;
+    }
+    .display-5 {
+        font-size: 2rem; /* Adjust display heading for smaller screens */
+    }
+}
+
+
+/* Ensure this is at the end or after other general styles it might conflict with */
+
+/* Custom Layout Styles */
+
+/* General */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #e74c3c;
+    --text-color: #2c3e50;
+    --light-bg: #f8f9fa;
+    --border-color: #e9ecef;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 0.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 1rem 1.2rem !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--secondary-color);
+}
+
+/* Dropdown Menus */
+.full-width-dropdown {
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.dropdown-flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-bg);
+    color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+/* Search Bar */
+.form-control-search {
+    border-radius: 20px;
+    padding-left: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.btn-search-custom {
+    border-radius: 20px;
+    padding: 0.375rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+}
+
+.btn-search-custom:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+/* Hero Slider */
+#hero-slider {
+    margin-top: -1rem;
+}
+
+.carousel-item {
+    height: 60vh;
+    min-height: 300px;
+    max-height: 500px;
+    background: #000;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(0.7);
+}
+
+.carousel-caption {
+    bottom: 20%;
+    padding: 2rem;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Footer Styles */
+.footer-custom {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 3rem 0 1rem;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.footer-custom p {
+    margin-bottom: 0.5rem;
+}
+
+.footer-custom a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-custom a:hover {
+    color: var(--secondary-color);
+}
+
+.footer-logo {
+    max-width: 120px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.copyright-text {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.8);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .navbar-custom {
+        padding: 0.5rem 1rem;
+    }
+
+    .dropdown-flex-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .carousel-item {
+        height: 50vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .carousel-item {
+        height: 40vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .footer-custom {
+        padding: 2rem 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 30vh;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+        padding: 1rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Category Grid */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.category-item:hover {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+    color: var(--secondary-color);
+}
+
+.category-item i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.category-item span {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+
+.category-item .product-count {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Brand Grid */
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.brand-item:hover {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+}
+
+.brand-item .brand-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+.brand-item i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.brand-item span {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+
+.brand-item .product-count {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Responsive adjustments for grids */
+@media (max-width: 992px) {
+    .category-grid,
+    .brand-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    .category-grid,
+    .brand-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .category-item,
+    .brand-item {
+        padding: 0.75rem;
+    }
+
+    .category-item i,
+    .brand-item i {
+        font-size: 1.5rem;
+    }
+
+    .brand-item .brand-logo {
+        width: 60px;
+        height: 60px;
+    }
+} 

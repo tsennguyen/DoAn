@@ -1,0 +1,35 @@
+@model IEnumerable<Shopping_Laptop.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Sản phẩm gợi ý";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Sản phẩm gợi ý</h2>
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="~/media/products/@product.Image" class="card-img-top" alt="@product.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                            <p class="card-text">
+                                <strong>Giá: </strong>@product.Price.ToString("N0") VNĐ
+                            </p>
+                            <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>Không có sản phẩm gợi ý.</p>
+    }
+</div> 

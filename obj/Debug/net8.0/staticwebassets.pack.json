@@ -1,0 +1,793 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping_Laptop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Shopping_Laptop.7bu8jg7n7y.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\custom-layout.css",
+      "PackagePath": "staticwebassets\\css\\custom-layout.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\images\\404\\404.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\cart\\one.png",
+      "PackagePath": "staticwebassets\\images\\cart\\one.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\cart\\three.png",
+      "PackagePath": "staticwebassets\\images\\cart\\three.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\cart\\two.png",
+      "PackagePath": "staticwebassets\\images\\cart\\two.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\girl3.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe1.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe2.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe3.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\images\\home\\iframe4.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\images\\home\\map.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\new.png",
+      "PackagePath": "staticwebassets\\images\\home\\new.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\images\\home\\pricing.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\pricing1.png",
+      "PackagePath": "staticwebassets\\images\\home\\pricing1.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product3.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product4.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product5.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\product6.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\sale.png",
+      "PackagePath": "staticwebassets\\images\\home\\sale.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\icons\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\icons\\facebook.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product10.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product11.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product12.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product7.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product8.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\images\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product9.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\0cdc0f4f-2ce5-4a27-817c-c6f75dcf8136_s23-ultra-5g-xanh.png",
+      "PackagePath": "staticwebassets\\media\\products\\0cdc0f4f-2ce5-4a27-817c-c6f75dcf8136_s23-ultra-5g-xanh.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\0fa8058a-7c98-48b9-aac0-e1fe428531b3_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0fa8058a-7c98-48b9-aac0-e1fe428531b3_1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\0fd599c2-f936-4d3a-9c6c-5a5069970f74_xiaomi-mi-11-xanhduong-600x600-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0fd599c2-f936-4d3a-9c6c-5a5069970f74_xiaomi-mi-11-xanhduong-600x600-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\141fe39d-6734-403e-90b4-ee841eac9917_samsung-fold-5-5_1690721068.png",
+      "PackagePath": "staticwebassets\\media\\products\\141fe39d-6734-403e-90b4-ee841eac9917_samsung-fold-5-5_1690721068.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\1d9b723c-33f9-46bf-85ec-2073a5503d45_2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1d9b723c-33f9-46bf-85ec-2073a5503d45_2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\1ddcdfd3-aebb-46c3-bac3-e01ac8afc076_screenshot-2024-08-08-182121.png",
+      "PackagePath": "staticwebassets\\media\\products\\1ddcdfd3-aebb-46c3-bac3-e01ac8afc076_screenshot-2024-08-08-182121.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\20a86ce0-2805-4535-a0e0-c22a5b73d9d9_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\20a86ce0-2805-4535-a0e0-c22a5b73d9d9_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\21d5af8d-450e-4428-9d7b-11eb692260c8_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\21d5af8d-450e-4428-9d7b-11eb692260c8_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\35fe4358-20d1-41ca-bd26-b3b40aa0f647_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\35fe4358-20d1-41ca-bd26-b3b40aa0f647_1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\3d33b0a2-c8ac-47f1-84cf-e87663b30306_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3d33b0a2-c8ac-47f1-84cf-e87663b30306_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\4489f73f-f5a7-4cf6-9d13-6623559e2ec2_10003-9z2u-82-www.laptopvip.vn-1678246295.png",
+      "PackagePath": "staticwebassets\\media\\products\\4489f73f-f5a7-4cf6-9d13-6623559e2ec2_10003-9z2u-82-www.laptopvip.vn-1678246295.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\449a8669-3b5d-4138-a3f4-d58acf3e76a1_xiaomi-redmi-note-12-vang-1-thumb-momo-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\449a8669-3b5d-4138-a3f4-d58acf3e76a1_xiaomi-redmi-note-12-vang-1-thumb-momo-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\5186547f-2aca-48f1-aad6-1e67691df8aa_tải xuống.png",
+      "PackagePath": "staticwebassets\\media\\products\\5186547f-2aca-48f1-aad6-1e67691df8aa_tải xuống.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\5ec84245-0c98-4845-8d58-0ec650bac6e5_4897189.png",
+      "PackagePath": "staticwebassets\\media\\products\\5ec84245-0c98-4845-8d58-0ec650bac6e5_4897189.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\6657af97-07de-4cb2-b767-3852c970c16a_xiaomi-mi-11-xanhduong-600x600-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\6657af97-07de-4cb2-b767-3852c970c16a_xiaomi-mi-11-xanhduong-600x600-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\6c83aaa7-4aa7-42d8-a941-52f3d3fe35ba_s23-ultra-5g-xanh.png",
+      "PackagePath": "staticwebassets\\media\\products\\6c83aaa7-4aa7-42d8-a941-52f3d3fe35ba_s23-ultra-5g-xanh.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\73a1748f-ffa7-4491-a23b-b3fe30b7adb4_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\73a1748f-ffa7-4491-a23b-b3fe30b7adb4_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\77f7fbc9-80d2-4fd6-be24-79a4e66f6ee3_screenshot-2024-08-08-182121.png",
+      "PackagePath": "staticwebassets\\media\\products\\77f7fbc9-80d2-4fd6-be24-79a4e66f6ee3_screenshot-2024-08-08-182121.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\7ae5e215-3a7f-40a7-9fa3-39131a6bbf86_screenshot-2024-08-08-182121.png",
+      "PackagePath": "staticwebassets\\media\\products\\7ae5e215-3a7f-40a7-9fa3-39131a6bbf86_screenshot-2024-08-08-182121.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\8030d496-cf25-4af7-bee6-56da69e372ec_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8030d496-cf25-4af7-bee6-56da69e372ec_1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\82174ecc-558f-47d7-8aff-c7b8d4c8c9ea_picture-01670140570.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\82174ecc-558f-47d7-8aff-c7b8d4c8c9ea_picture-01670140570.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\9626886c-463b-4d48-8ce0-81c3825deef8_samsung-fold-5-5_1690721068.png",
+      "PackagePath": "staticwebassets\\media\\products\\9626886c-463b-4d48-8ce0-81c3825deef8_samsung-fold-5-5_1690721068.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\990d75c0-e3c5-475d-9ce0-e57d9eec0cb8_samsung-fold-5-5_1690721068.png",
+      "PackagePath": "staticwebassets\\media\\products\\990d75c0-e3c5-475d-9ce0-e57d9eec0cb8_samsung-fold-5-5_1690721068.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\9a7bc018-9fac-4e8a-a540-2700c5997811_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9a7bc018-9fac-4e8a-a540-2700c5997811_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\9c68e97f-c89d-497c-8046-88df49d9d815_tải xuống.png",
+      "PackagePath": "staticwebassets\\media\\products\\9c68e97f-c89d-497c-8046-88df49d9d815_tải xuống.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\9dc818ba-bffb-4169-a001-04239b5e79c1_iphone-16-plus-1.png",
+      "PackagePath": "staticwebassets\\media\\products\\9dc818ba-bffb-4169-a001-04239b5e79c1_iphone-16-plus-1.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\9e8e3795-d106-406a-9d11-a79698e0b35a_4897189.png",
+      "PackagePath": "staticwebassets\\media\\products\\9e8e3795-d106-406a-9d11-a79698e0b35a_4897189.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\a63baf1a-2fae-412b-993c-83f033c14f3a_mbp16-spaceblack-select-202410.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\a63baf1a-2fae-412b-993c-83f033c14f3a_mbp16-spaceblack-select-202410.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\b3866268-1593-4ef1-a6b1-18bd93d8bd8c_10003-9z2u-82-www.laptopvip.vn-1678246295.png",
+      "PackagePath": "staticwebassets\\media\\products\\b3866268-1593-4ef1-a6b1-18bd93d8bd8c_10003-9z2u-82-www.laptopvip.vn-1678246295.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\b63cf894-efbe-4cd8-96e2-cffccdcda68d_2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\b63cf894-efbe-4cd8-96e2-cffccdcda68d_2.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\bf91f012-4572-4a15-ab17-94260e7cf53c_dien-thoai-xiaomi-15_19_.png",
+      "PackagePath": "staticwebassets\\media\\products\\bf91f012-4572-4a15-ab17-94260e7cf53c_dien-thoai-xiaomi-15_19_.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\c764b1ea-c1cb-4216-a975-d262f046de71_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c764b1ea-c1cb-4216-a975-d262f046de71_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\c792d380-4a58-474c-9316-464efd095dc2_laptop-hp-elite-dragonfly-g4-9h8x1pt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c792d380-4a58-474c-9316-464efd095dc2_laptop-hp-elite-dragonfly-g4-9h8x1pt.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\cae1ced9-0f93-4483-80c7-20c97e6f9a49_tải xuống.png",
+      "PackagePath": "staticwebassets\\media\\products\\cae1ced9-0f93-4483-80c7-20c97e6f9a49_tải xuống.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\cb3c54d2-586d-4bd4-b4f8-a68ba610b482_tải xuống.png",
+      "PackagePath": "staticwebassets\\media\\products\\cb3c54d2-586d-4bd4-b4f8-a68ba610b482_tải xuống.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\d1d7deb1-11ad-49c3-9197-63a6990359d6_xiaomi-redmi-note-12-vang-1-thumb-momo-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\d1d7deb1-11ad-49c3-9197-63a6990359d6_xiaomi-redmi-note-12-vang-1-thumb-momo-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\d640493d-00bc-4db5-9547-fc90c7cd4922_picture-01670140570.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\d640493d-00bc-4db5-9547-fc90c7cd4922_picture-01670140570.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\df5e3dcc-4efb-4327-812c-e6c2b2e02151_7u3oriyu-1463-lenovo-legion-5-pro-16irx9-2024-core-i9-14900hx-32gb-1tb-rtx-4060-8gb-16-2k-240hz-new.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\df5e3dcc-4efb-4327-812c-e6c2b2e02151_7u3oriyu-1463-lenovo-legion-5-pro-16irx9-2024-core-i9-14900hx-32gb-1tb-rtx-4060-8gb-16-2k-240hz-new.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\e3927fd8-1868-4fc9-8039-67e8e6ffb546_7u3oriyu-1463-lenovo-legion-5-pro-16irx9-2024-core-i9-14900hx-32gb-1tb-rtx-4060-8gb-16-2k-240hz-new.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e3927fd8-1868-4fc9-8039-67e8e6ffb546_7u3oriyu-1463-lenovo-legion-5-pro-16irx9-2024-core-i9-14900hx-32gb-1tb-rtx-4060-8gb-16-2k-240hz-new.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\e70020f0-773c-44b0-9fa7-d96bc466156e_laptop-hp-elite-dragonfly-g4-9h8x1pt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e70020f0-773c-44b0-9fa7-d96bc466156e_laptop-hp-elite-dragonfly-g4-9h8x1pt.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\e8bf1bca-4bd2-4f53-942f-c0ab5bc86e7f_hub-chuyen-doi-ugreen-usb-c-to-usb-a-2-0-usb-a-3-0-hdmi-pd-ho-tro-4k-15495-2.png",
+      "PackagePath": "staticwebassets\\media\\products\\e8bf1bca-4bd2-4f53-942f-c0ab5bc86e7f_hub-chuyen-doi-ugreen-usb-c-to-usb-a-2-0-usb-a-3-0-hdmi-pd-ho-tro-4k-15495-2.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\e919e8df-6147-4328-94c5-77903f21769d_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e919e8df-6147-4328-94c5-77903f21769d_1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\e9afc6a8-7e00-448e-86cb-4ca780af7b53_laptop-hp-elite-dragonfly-g4-9h8x1pt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e9afc6a8-7e00-448e-86cb-4ca780af7b53_laptop-hp-elite-dragonfly-g4-9h8x1pt.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\effaf288-0db5-4e48-8057-23d7299643f6_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\effaf288-0db5-4e48-8057-23d7299643f6_1.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\f2e95256-4510-4cb2-b692-6647c87418e2_4897189.png",
+      "PackagePath": "staticwebassets\\media\\products\\f2e95256-4510-4cb2-b692-6647c87418e2_4897189.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\f3986667-32b4-4482-a523-b0c4b223e158_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f3986667-32b4-4482-a523-b0c4b223e158_Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\f6762998-5a6e-4e99-a02b-5e83761a5f65_o-cung-di-dong-ssd-kingston-xs1000-usb-3-2-gen-2-den-1tb_4_.png",
+      "PackagePath": "staticwebassets\\media\\products\\f6762998-5a6e-4e99-a02b-5e83761a5f65_o-cung-di-dong-ssd-kingston-xs1000-usb-3-2-gen-2-den-1tb_4_.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\feadb6b3-d579-4a00-99fc-4cd992a5030c_mbp16-spaceblack-select-202410.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\feadb6b3-d579-4a00-99fc-4cd992a5030c_mbp16-spaceblack-select-202410.jpg"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\fef0fa9c-cc7a-44d0-aefe-43e7d4c6451a_samsung-fold-5-5_1690721068.png",
+      "PackagePath": "staticwebassets\\media\\products\\fef0fa9c-cc7a-44d0-aefe-43e7d4c6451a_samsung-fold-5-5_1690721068.png"
+    },
+    {
+      "Id": "D:\\Coder\\AI WEB - BẢN NÀY OK BACK UP\\DoAn\\Shopping_Laptop\\wwwroot\\media\\products\\ffc7e4db-fd39-4f35-b6cb-c76ba26bb0f6_screenshot-2024-08-08-182121.png",
+      "PackagePath": "staticwebassets\\media\\products\\ffc7e4db-fd39-4f35-b6cb-c76ba26bb0f6_screenshot-2024-08-08-182121.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Shopping_Laptop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Shopping_Laptop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Shopping_Laptop.props",
+      "PackagePath": "build\\Shopping_Laptop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Shopping_Laptop.props",
+      "PackagePath": "buildMultiTargeting\\Shopping_Laptop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Shopping_Laptop.props",
+      "PackagePath": "buildTransitive\\Shopping_Laptop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

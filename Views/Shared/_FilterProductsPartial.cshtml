@@ -1,0 +1,89 @@
+﻿@{
+    var queryParams = new Dictionary<string, string>();
+    var currentUrl = Context.Request.Path;
+    var queryString = Context.Request.QueryString.Value;
+
+    if (!string.IsNullOrEmpty(queryString))
+    {
+        var parameters = queryString.TrimStart('?').Split('&');
+        foreach (var param in parameters)
+        {
+            var keyValue = param.Split('=');
+            if (keyValue.Length == 2)
+            {
+                var key = keyValue[0];
+                var value = keyValue[1];
+                if (!string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(value))
+                {
+                    queryParams[key] = value;
+                }
+            }
+        }
+    }
+}
+
+<div class="filter-widget">
+    <h4 class="fw-title">Sắp xếp theo</h4>
+    <div class="fw-brand-check">
+        <div class="bc-item">
+            @{
+                queryParams["sortBy"] = "price_increase";
+                var priceIncreaseUrl = $"{currentUrl}?{string.Join("&", queryParams.Select(x => $"{x.Key}={x.Value}"))}";
+            }
+            <a href="@priceIncreaseUrl" class="filter-link">Giá tăng dần</a>
+        </div>
+        <div class="bc-item">
+            @{
+                queryParams["sortBy"] = "price_decrease";
+                var priceDecreaseUrl = $"{currentUrl}?{string.Join("&", queryParams.Select(x => $"{x.Key}={x.Value}"))}";
+            }
+            <a href="@priceDecreaseUrl" class="filter-link">Giá giảm dần</a>
+        </div>
+        <div class="bc-item">
+            @{
+                queryParams["sortBy"] = "price_newest";
+                var newestUrl = $"{currentUrl}?{string.Join("&", queryParams.Select(x => $"{x.Key}={x.Value}"))}";
+            }
+            <a href="@newestUrl" class="filter-link">Mới nhất</a>
+        </div>
+        <div class="bc-item">
+            @{
+                queryParams["sortBy"] = "price_oldest";
+                var oldestUrl = $"{currentUrl}?{string.Join("&", queryParams.Select(x => $"{x.Key}={x.Value}"))}";
+            }
+            <a href="@oldestUrl" class="filter-link">Cũ nhất</a>
+        </div>
+    </div>
+</div>
+
+<div class="filter-widget">
+    <h4 class="fw-title">Lọc theo giá</h4>
+    <div class="filter-range-wrap">
+        <div class="range-slider">
+            <div class="price-input">
+                <input type="text" id="minamount">
+                <input type="text" id="maxamount">
+            </div>
+        </div>
+        <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
+            data-min="0" data-max="100000000">
+            <div class="ui-slider-range ui-corner-all ui-widget-header"></div>
+            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+        </div>
+    </div>
+    <button class="filter-btn" onclick="applyPriceFilter()">Lọc</button>
+</div>
+
+<script>
+    function applyPriceFilter() {
+        var minPrice = document.getElementById('minamount').value.replace(/[^\d]/g, '');
+        var maxPrice = document.getElementById('maxamount').value.replace(/[^\d]/g, '');
+
+        var currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('startPrice', minPrice);
+        currentUrl.searchParams.set('endPrice', maxPrice);
+
+        window.location.href = currentUrl.toString();
+    }
+</script>

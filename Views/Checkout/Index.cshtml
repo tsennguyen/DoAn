@@ -1,0 +1,229 @@
+﻿@* @model CheckoutViewModel - Giả sử bạn có một ViewModel cho trang này *@
+@{
+    ViewData["Title"] = "Thanh Toán";
+    // Layout = "~/Views/Shared/_Layout.cshtml"; // Đảm bảo layout được áp dụng
+}
+
+<div class="checkout-page py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Left Column - Order Summary -->
+            <div class="col-lg-4 order-lg-2 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">
+                            <i class="fas fa-shopping-cart me-2"></i>
+                            Tóm Tắt Đơn Hàng
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="cart-summary">
+                            <!-- Cart items will be loaded here via AJAX -->
+                            <div class="text-center py-3">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Checkout Form -->
+            <div class="col-lg-8 order-lg-1">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">
+                            <i class="fas fa-credit-card me-2"></i>
+                            Thông Tin Thanh Toán
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="checkout-form" asp-action="Checkout" asp-controller="Checkout" method="post">
+                            @Html.AntiForgeryToken()
+
+                            <!-- Shipping Information -->
+                            <div class="checkout-section mb-4">
+                                <h6 class="section-title mb-3">
+                                    <i class="fas fa-truck me-2"></i>
+                                    Thông Tin Giao Hàng
+                                </h6>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Họ và Tên</label>
+                                        <input type="text" class="form-control" name="FullName" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control" name="Email" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Số Điện Thoại</label>
+                                        <input type="tel" class="form-control" name="Phone" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Địa Chỉ</label>
+                                        <input type="text" class="form-control" name="Address" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Tỉnh/Thành Phố</label>
+                                        <select class="form-select" name="City" required>
+                                            <option value="">Chọn Tỉnh/Thành Phố</option>
+                                            <!-- Add cities here -->
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Quận/Huyện</label>
+                                        <select class="form-select" name="District" required>
+                                            <option value="">Chọn Quận/Huyện</option>
+                                            <!-- Add districts here -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Payment Method -->
+                            <div class="checkout-section mb-4">
+                                <h6 class="section-title mb-3">
+                                    <i class="fas fa-money-bill-wave me-2"></i>
+                                    Phương Thức Thanh Toán
+                                </h6>
+                                <div class="payment-methods">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" name="PaymentMethod" id="cod" value="COD" checked>
+                                        <label class="form-check-label" for="cod">
+                                            <i class="fas fa-truck me-2"></i>
+                                            Thanh Toán Khi Nhận Hàng (COD)
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" name="PaymentMethod" id="momo" value="MOMO">
+                                        <label class="form-check-label" for="momo">
+                                            <img src="~/images/momo_logo.png" height="20" class="me-2" alt="Momo">
+                                            Ví MoMo
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" name="PaymentMethod" id="vnpay" value="VNPAY">
+                                        <label class="form-check-label" for="vnpay">
+                                            <img src="~/images/vnpay_logo.png" height="20" class="me-2" alt="VNPAY">
+                                            VNPAY
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Order Notes -->
+                            <div class="checkout-section mb-4">
+                                <h6 class="section-title mb-3">
+                                    <i class="fas fa-sticky-note me-2"></i>
+                                    Ghi Chú Đơn Hàng
+                                </h6>
+                                <textarea class="form-control" name="OrderNotes" rows="3" placeholder="Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn."></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-lock me-2"></i>
+                                    Hoàn Tất Đặt Hàng
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Load cart summary via AJAX
+            function loadCartSummary() {
+                $.get('@Url.Action("GetCartSummary", "Cart")', function(data) {
+                    $('#cart-summary').html(data);
+                });
+            }
+
+            // Load cart summary on page load
+            loadCartSummary();
+
+            // Handle payment method change
+            $('input[name="PaymentMethod"]').change(function() {
+                const method = $(this).val();
+                // Add any payment method specific logic here
+            });
+
+            // Form validation
+            $('#checkout-form').submit(function(e) {
+                if (!this.checkValidity()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+                $(this).addClass('was-validated');
+            });
+        });
+    </script>
+}
+
+@section Styles {
+    <style>
+        .checkout-page {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+        }
+
+        .card-header {
+            border-radius: 10px 10px 0 0 !important;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .form-control, .form-select {
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+            padding: 0.75rem;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+
+        .btn-primary {
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .payment-methods .form-check {
+            padding: 1rem;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            margin-bottom: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .payment-methods .form-check:hover {
+            background-color: #f8f9fa;
+        }
+
+        .payment-methods .form-check-input:checked + .form-check-label {
+            color: #0d6efd;
+        }
+
+        .payment-methods .form-check-input:checked + .form-check-label {
+            font-weight: 600;
+        }
+    </style>
+}

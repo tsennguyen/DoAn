@@ -1,0 +1,16 @@
+@model Shopping_Laptop.Models.ProductModel
+
+<div id="product-recommendations">
+    @await Component.InvokeAsync("RecommendedProducts", new { currentProductId = Model.Id, numberOfRecommendations = 4 })
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const productId = @Model.Id;
+        fetch('/Recommendation/RecordBehavior', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: `productId=${productId}&behaviorType=Clicked`
+        }).then(r => console.log('Product click recorded'));
+    });
+</script>

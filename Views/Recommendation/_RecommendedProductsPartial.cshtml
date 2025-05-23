@@ -1,0 +1,108 @@
+@model IEnumerable<Shopping_Laptop.Models.ProductModel>
+
+@if (Model != null && Model.Any())
+{
+    <div class="recommended_items_container my-4"> @* Đổi class để tránh trùng lặp nếu cần thiết *@
+        @* <h3 class="title text-center">Sản phẩm gợi ý cho bạn</h3> *@ @* Tiêu đề này đã có ở các trang gọi component *@
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3"> @* Responsive grid, g-3 là gap *@
+            @foreach (var product in Model)
+            {
+                <div class="col d-flex">
+                    <div class="product-image-wrapper border rounded shadow-sm h-100 d-flex flex-column p-2 w-100">
+                        <div class="single-products text-center h-100 d-flex flex-column">
+                            <div class="productinfo flex-grow-1">
+                                <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id" class="text-dark text-decoration-none d-block">
+                                    <img src="~/media/products/@product.Image" alt="@product.Name" class="img-responsive mx-auto" style="height: 140px; width: auto; max-width: 100%; object-fit: contain; margin-bottom: 10px;" />
+                                    <h5 class="text-danger mt-2 fw-bold">@product.Price.ToString("N0") ₫</h5>
+                                    <p class="fw-semibold" style="min-height: 2.4em; line-height: 1.2em; max-height: 2.4em; overflow: hidden; margin-bottom: 0.5rem;">@product.Name</p>
+                                    @if (product.Category != null)
+                                    {
+                                        <p class="text-muted mb-1"><small>@product.Category.Name</small></p>
+                                    }
+                                    @if (product.Brand != null)
+                                    {
+                                        <p class="text-muted"><small>@product.Brand.Name</small></p>
+                                    }
+                                </a>
+                            </div>
+
+                            <div class="product-actions mt-auto text-center pt-2">
+                                @if (product.Quantity > 0)
+                                {
+                                    <button class="btn btn-sm btn-primary add-to-cart-recommend m-1" data-product_id="@product.Id" title="Thêm vào giỏ hàng">
+                                        <i class="fa fa-shopping-cart"></i> Thêm
+                                    </button>
+                                    @* Có thể thêm nút Yêu thích/So sánh nếu muốn, tương tự trang chủ *@
+                                }
+                                else
+                                {
+                                    <button class="btn btn-sm btn-light disabled m-1" title="Hết hàng">
+                                        <i class="fa fa-shopping-cart"></i> Hết hàng
+                                    </button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="container my-4">
+        <p class="text-center text-muted">Không có sản phẩm nào được đề xuất cho bạn vào lúc này.</p>
+    </div>
+}
+
+@* Script này nên được đặt trong @section Scripts ở view chính gọi component này, hoặc trong một file .js chung.
+   Nếu đặt ở đây, nó có thể bị lặp lại nếu component được gọi nhiều lần trên cùng 1 trang.
+   Tuy nhiên, để đơn giản cho ví dụ này, tôi tạm để ở đây.
+*@
+<script>
+    $(document).ready(function () {
+        // Script Add to Cart cho sản phẩm gợi ý
+        // Sử dụng một selector class khác để tránh xung đột với các nút add-to-cart khác nếu có
+        $('.add-to-cart-recommend').off('click').on('click', function (e) {
+            e.preventDefault();
+            var button = $(this);
+            var Id = button.data("product_id");
+            button.prop('disabled', true).html('<i class="fa fa-spinner fa-spin"></i>');
+
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Add", "Cart")', // Đảm bảo URL này đúng
+                data: { Id: Id, quantity: 1 }, // Mặc định thêm 1 sản phẩm
+                success: function (response) {
+                    if (response.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Thành công!',
+                            text: response.message || 'Đã thêm sản phẩm vào giỏ hàng.',
+                            timer: 1500,
+                            showConfirmButton: false
+                        });
+                        // Tùy chọn: Cập nhật số lượng giỏ hàng trên header nếu có
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Lỗi',
+                            text: response.message || 'Không thể thêm sản phẩm vào giỏ hàng.'
+                        });
+                    }
+                },
+                error: function () {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi Hệ Thống',
+                        text: 'Lỗi kết nối máy chủ. Vui lòng thử lại sau.'
+                    });
+                },
+                complete: function() {
+                    // Reset nút sau khi hoàn tất
+                    button.prop('disabled', false).html('<i class="fa fa-shopping-cart"></i> Thêm');
+                }
+            });
+        });
+    });
+</script> 

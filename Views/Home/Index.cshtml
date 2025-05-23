@@ -1,0 +1,247 @@
+﻿@model IEnumerable<Shopping_Laptop.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Trang Chủ - SportsGear Pro";
+}
+
+<div class="container-fluid px-0">
+    <section id="hero-slider" class="mb-5">
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/banners/banner-sport-1.jpg" class="d-block w-100" alt="Bộ sưu tập giày chạy mới">
+                    <div class="carousel-caption d-none d-md-block text-start">
+                        <h2 class="text-uppercase">Bộ Sưu Tập Giày Chạy Mới</h2>
+                        <p class="lead">Trải nghiệm sự thoải mái và hiệu suất vượt trội với công nghệ tiên tiến.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Khám Phá Ngay</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banners/banner-sport-2.jpg" class="d-block w-100" alt="Trang phục tập luyện cao cấp">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-uppercase">Trang Phục Tập Luyện Cao Cấp</h2>
+                        <p class="lead">Chất liệu thoáng khí, thiết kế năng động, sẵn sàng cho mọi thử thách.</p>
+                        <a href="#" class="btn btn-lg btn-outline-light">Xem Thêm</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banners/banner-sport-3.jpg" class="d-block w-100" alt="Phụ kiện thể thao đa năng">
+                    <div class="carousel-caption d-none d-md-block text-end">
+                        <h2 class="text-uppercase">Phụ Kiện Thể Thao Đa Năng</h2>
+                        <p class="lead">Nâng tầm buổi tập của bạn với những phụ kiện không thể thiếu.</p>
+                        <a href="#" class="btn btn-lg btn-warning">Mua Ngay</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</div>
+
+<div class="container">
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <div class="alert alert-info alert-dismissible fade show shadow-sm mb-4" role="alert">
+            @if (User.IsInRole("Admin"))
+            {
+                <strong>Xin chào, Quản trị viên <span>@User.Identity.Name</span>!</strong>
+            }
+            else
+            {
+                <strong>Xin chào Quý Khách <span>@User.Identity.Name</span>!</strong>
+            }
+            Chúc bạn có những trải nghiệm mua sắm tuyệt vời tại SportsGear Pro.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    @* Removed time script, can be added back if needed *
+
+    <section class="featured-categories mb-5">
+        <h2 class="text-center display-5 fw-bold mb-4">Danh Mục Nổi Bật</h2>
+        <div class="row g-4">
+            @* Example Categories - Replace with dynamic data from ViewBag or a ViewComponent *@
+            <div class="col-md-4">
+                <div class="card category-card shadow-sm">
+                    <img src="/images/categories/category-shoes.jpg" class="card-img-top" alt="Giày Thể Thao">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Giày Thể Thao</h5>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Xem Sản Phẩm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card category-card shadow-sm">
+                    <img src="/images/categories/category-apparel.jpg" class="card-img-top" alt="Quần Áo Thể Thao">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Quần Áo Thể Thao</h5>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Xem Sản Phẩm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card category-card shadow-sm">
+                    <img src="/images/categories/category-accessories.jpg" class="card-img-top" alt="Phụ Kiện Thể Thao">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Phụ Kiện Thể Thao</h5>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Xem Sản Phẩm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-products mb-5">
+        <h2 class="text-center display-5 fw-bold mb-4">Hàng Mới Về</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4"> 
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model.Take(10)) // Show 10 latest products
+                {
+                    <div class="col d-flex align-items-stretch">
+                         @await Html.PartialAsync("_ProductCardPartial", item)
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12">
+                    <p class="text-center lead">Hiện chưa có sản phẩm nào.</p>
+                </div>
+            }
+        </div>
+        @if (Model != null && Model.Count() > 10)
+        {
+            <div class="text-center mt-4">
+                <a asp-controller="Product" asp-action="Index" class="btn btn-lg btn-outline-secondary">Xem Tất Cả Sản Phẩm</a>
+            </div>
+        }
+    </section>
+
+    @* TODO: Add Featured Brands Section (Logo carousel/grid) *@ 
+
+    @* TODO: Add Bestsellers Section (if data available) *@
+
+    <section class="recommended-products mb-5">
+        <h2 class="text-center display-5 fw-bold mb-4">Gợi Ý Cho Bạn</h2>
+        @await Component.InvokeAsync("RecommendedProducts")
+    </section>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            // AJAX Add to Cart
+            $(document).on('click', '.add-to-cart', function (e) {
+                e.preventDefault();
+                var button = $(this);
+                var productId = button.data("product-id");
+                var originalHtml = button.html();
+                button.prop('disabled', true).html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Đang thêm...');
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("Add", "Cart")',
+                    data: { id: productId, quantity: 1 },
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({ 
+                                icon: 'success', 
+                                title: 'Thành công!', 
+                                text: response.message || 'Đã thêm vào giỏ hàng.', 
+                                toast: true, 
+                                position: 'top-end', 
+                                showConfirmButton: false, 
+                                timer: 2000 
+                            });
+                            // TODO: Update cart icon/count in navbar dynamically
+                        } else {
+                            Swal.fire({ 
+                                icon: 'error', 
+                                title: 'Lỗi', 
+                                text: response.message || 'Không thể thêm sản phẩm.' 
+                            });
+                        }
+                    },
+                    error: function () {
+                        Swal.fire({ 
+                            icon: 'error', 
+                            title: 'Lỗi Hệ Thống', 
+                            text: 'Lỗi kết nối. Vui lòng thử lại sau.' 
+                        });
+                    },
+                    complete: function() {
+                        button.prop('disabled', false).html(originalHtml);
+                    }
+                });
+            });
+
+            // AJAX Add to Wishlist
+            $(document).on('click', '.add-to-wishlist', function (e) {
+                e.preventDefault();
+                var button = $(this);
+                var productId = button.data("product-id");
+                var originalIconClass = button.find('i').attr('class');
+                button.prop('disabled', true).find('i').removeClass().addClass('fas fa-spinner fa-spin');
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("AddWishlist", "Home")',
+                    data: { id: productId },
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({ 
+                                icon: 'success', 
+                                title: 'Yêu thích!', 
+                                text: response.message || 'Đã thêm vào danh sách yêu thích.', 
+                                toast: true, 
+                                position: 'top-end', 
+                                showConfirmButton: false, 
+                                timer: 2000 
+                            });
+                            button.find('i').removeClass().addClass('fas fa-heart text-danger');
+                        } else {
+                            Swal.fire({ 
+                                icon: 'error', 
+                                title: 'Lỗi', 
+                                text: response.message || 'Không thể thêm vào yêu thích.' 
+                            });
+                            button.find('i').removeClass().addClass(originalIconClass);
+                        }
+                    },
+                    error: function () {
+                        Swal.fire({ 
+                            icon: 'error', 
+                            title: 'Lỗi Hệ Thống', 
+                            text: 'Lỗi kết nối. Vui lòng thử lại sau.' 
+                        });
+                        button.find('i').removeClass().addClass(originalIconClass);
+                    },
+                    complete: function() {
+                        button.prop('disabled', false);
+                    }
+                });
+            });
+
+            // Placeholder for Compare functionality
+            $(document).on('click', '.add-to-compare', function(e){
+                e.preventDefault();
+                Swal.fire({ icon: 'info', title: 'Thông báo', text: 'Chức năng So sánh sản phẩm đang được phát triển!', timer: 2000, showConfirmButton: false, toast: true, position: 'top-end' });
+            });
+
+        });
+    </script>
+}
+

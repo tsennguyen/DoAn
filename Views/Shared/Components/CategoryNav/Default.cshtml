@@ -1,0 +1,31 @@
+@model IEnumerable<Shopping_Laptop.Models.CategoryModel>
+
+<div class="category-grid">
+    @foreach (var category in Model)
+    {
+        <a href="/Category/@category.Id" class="category-item">
+            <i class="@GetCategoryIcon(category.Name)"></i>
+            <span>@category.Name</span>
+            <small class="product-count">(@category.Products?.Count() ?? 0 sản phẩm)</small>
+        </a>
+    }
+</div>
+
+@functions {
+    private string GetCategoryIcon(string categoryName)
+    {
+        return categoryName.ToLower() switch
+        {
+            var name when name.Contains("laptop") => "fas fa-laptop",
+            var name when name.Contains("gaming") => "fas fa-gamepad",
+            var name when name.Contains("văn phòng") => "fas fa-briefcase",
+            var name when name.Contains("đồ họa") => "fas fa-palette",
+            var name when name.Contains("sinh viên") => "fas fa-graduation-cap",
+            var name when name.Contains("cao cấp") => "fas fa-crown",
+            var name when name.Contains("phổ thông") => "fas fa-star",
+            var name when name.Contains("mỏng nhẹ") => "fas fa-feather-alt",
+            var name when name.Contains("workstation") => "fas fa-desktop",
+            _ => "fas fa-laptop-code"
+        };
+    }
+}

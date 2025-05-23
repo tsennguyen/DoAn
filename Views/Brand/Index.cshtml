@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Shopping_Laptop.Models.ProductModel>
+
+<div class="col-sm-12 padding-right">
+    <div class="features_items">
+        <!-- Tiêu đề sản phẩm -->
+        <h2 class="title text-center">Sản phẩm nổi bật</h2>
+
+        @if (!Model.Any())
+        {
+            <p class="text-center text-muted">Hiện chưa có sản phẩm nào trong mục này.</p>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+                        <div class="product-image-wrapper border rounded p-2 shadow-sm h-100 d-flex flex-column">
+                            <a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id" class="text-decoration-none text-dark flex-grow-1 d-flex flex-column">
+                                <div class="single-products h-100 d-flex flex-column">
+                                    <div class="productinfo text-center flex-grow-1">
+                                        <img src="~/media/products/@item.Image" alt="@item.Name" width="100%" style="height: 220px; object-fit: contain;" />
+                                        <h5 class="mt-2 text-danger fw-bold">@item.Price.ToString("#,##0") ₫</h5>
+                                        <p class="mb-1 fw-semibold">@item.Name</p>
+                                        <p class="mb-1 text-muted">Danh mục: @item.Category?.Name</p>
+                                        <p class="mb-1 text-muted">Thương hiệu: @item.Brand?.Name</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="choose mt-2">
+                                <ul class="nav nav-pills nav-justified small">
+                                    <li>
+                                        <a href="#"><i class="fa fa-heart text-danger"></i> Yêu thích</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-exchange"></i> So sánh</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
